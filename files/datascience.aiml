@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>data science</pattern>
+    <template>I would reccomend Data Science.</template>
+</category>
+<category>
+    <pattern>I need help choosing a career</pattern>
+    <template>Do you prefer working with Hardware or Software?</template>
+</category>
+<category>
+    <pattern>Software</pattern>
+    <template>What Languages are you proficient in?</template>
+</category>
+<category>
+    <pattern>SQL, HTML, Java</pattern>
+    <template>If you are proficient in multiple languages I would reccomend Full Stack Development</template>
+</category>
+
+<category><pattern>,</pattern><template><srai>SQL, HTML, JAVA</srai></template></category>
+
+</aiml>

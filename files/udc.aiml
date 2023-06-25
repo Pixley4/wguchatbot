@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+    <pattern>*</pattern>
+    <template>I am a computer science career chatbot that can reccomend computing jobs. Would you like me to reccomend computing jobs?
+        <button>
+                <text>Yes</text>
+                <postback>hardware or software</postback>
+            </button>
+                 <button>
+                <text>No</text>
+                <postback>optionno</postback>
+            </button>
+ </template>
+</category>
+  <category>
+    <pattern>hardware or software</pattern>
+    <template>Do you prefer working with hardware or software?
+       <button>
+                <text>Hardware</text>
+                <postback>hardware jobs</postback>
+            </button>
+                <button>
+                <text>Software</text>
+                <postback>languages</postback>
+            </button>
+    </template>
+  </category>
+  <category>
+      <pattern>hardware jobs</pattern>
+      <template>A job pertaining to hardware that I would reccoment is Computer Engineering</template>
+  </category>
+  <category>
+      <pattern>languages</pattern>
+      <template>Which programming language are you most proficent in? 
+      <button>
+                <text>SQL</text>
+                <postback>data management</postback>
+            </button>
+               <button>
+                <text>HTML</text>
+                <postback>web design</postback>
+            </button>
+               <button>
+                <text>Java</text>
+                <postback>software development</postback>
+            </button>
+               <button>
+                <text>Python</text>
+                <postback>data science</postback>
+            </button>
+                 <button>
+                <text>Multiple</text>
+                <postback>full stack</postback>
+            </button>
+            </template>
+  </category>
+  <category>
+      <pattern>web design</pattern>
+      <template>I would reccomend Web Design</template>
+  </category>
+  <category>
+      <pattern>data management</pattern>
+      <template>I would reccomend Data Managment</template>
+  </category>
+  <category>
+      <pattern>software development</pattern>
+      <template>I would reccomend Software Development <br/>
+      Would you like another reccomendation for jobs pertaining to Java?
+      <button>
+                <text>Yes</text>
+                <postback>otherjava</postback>
+            </button>
+                  <button>
+                <text>No</text>
+                <postback>optionno</postback>
+            </button>
+      </template>
+  </category>
+    <category>
+      <pattern>full stack</pattern>
+      <template>I would reccomend Full Stack Development</template>
+  </category>
+   <category>
+      <pattern>otherjava</pattern>
+      <template>Another job i would reccomend is Cloud Engineering</template>
+  </category>
+  <category>
+      <pattern>optionno</pattern>
+      <template>No problem, I will be here if you need help choosing a computing job</template>
+  </category>
+  </aiml>

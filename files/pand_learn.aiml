@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<category>
+	<pattern>I WANT TO WORK WITH HARDWARE</pattern>
+	<template>I would recommend Computer Engineering</template>
+</category>
+
+<category>
+	<pattern>I AM PROFICIENT IN SQL</pattern>
+	<template>I would recommend data management</template>
+</category>
+
+<category>
+	<pattern>I AM PROFICIENT IN HTML</pattern>
+	<template>I would recommend web design</template>
+</category>
+
+<category>
+	<pattern>I AM PROFICIENT IN JAVA</pattern>
+	<template>I would recommend software development</template>
+</category>
+
+<category>
+	<pattern>I LIKE TO WORK WITH PYTHON</pattern>
+	<template>I would recommend software development</template>
+</category>
+
+</aiml>
